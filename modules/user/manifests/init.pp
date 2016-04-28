@@ -1,8 +1,8 @@
 class user {
-  user { 'k':
+  user { 'Ravi':
     ensure => present,
     comment => 'bogo user',
-    home => '/home/k',
+    home => '/home/ravi',
     managehome => true
   }
 }
